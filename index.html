@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINÉA Beauty | My Little Beauty Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <a class="brand" href="index.html">LINÉA<span>®</span></a>
+
+        <nav>
+            <a href="#collection">Collection</a>
+            <a href="#story">My Story</a>
+            <a href="login.html">Login</a>
+        </nav>
+
+        <a class="account-link" href="signup.html">JOIN US ↗️</a>
+    </header>
+
+    <main>
+
+        <!-- Welcome Section -->
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">A SMALL IDEA WITH BIG EYES</p>
+
+                <h1>Make your eyes<br>
+                    <em>do the talking.</em>
+                </h1>
+
+                <p class="hero-description">
+                    Welcome to LINÉA Beauty! I created this little
+                    beauty brand concept for everyone who loves
+                    a simple line with a little extra confidence.
+                </p>
+
+                <a class="main-button" href="#collection">
+                    FIND YOUR FAVOURITE ↗️
+                </a>
+
+                <p class="small-note">
+                    Made with creativity, coffee and a love for eyeliner!
+                </p>
+            </div>
+
+            <div class="hero-art" aria-label="Decorative eyeliner artwork">
+                <div class="art-circle"></div>
+
+                <div class="liner">
+                    <div class="liner-tip"></div>
+                    <div class="liner-body">LINÉA</div>
+                    <div class="liner-cap"></div>
+                </div>
+
+                <p class="art-caption">YOUR EYES, YOUR RULES ♡</p>
+            </div>
+        </section>
+
+        <!-- Products -->
+        <section class="collection" id="collection">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">A LITTLE SOMETHING FOR EVERYONE</p>
+                    <h2>Pick Your Liner!</h2>
+                </div>
+
+                <p>Three styles, three moods, your choice.</p>
+            </div>
+
+            <div class="product-grid">
+
+                <article class="product-card">
+                    <div class="product-art art-one">
+                        <span>01</span>
+                        <div class="mini-liner"></div>
+                    </div>
+
+                    <p class="product-type">YOUR DAILY FAVOURITE</p>
+                    <h3>Noir Precision</h3>
+                    <p>Simple, neat and perfect for everyday looks.</p>
+                    <p class="price">₹399</p>
+                    <button class="product-button"
+                        onclick="showMessage('Noir Precision')">
+                        I LIKE THIS!
+                    </button>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-art art-two">
+                        <span>02</span>
+                        <div class="mini-liner"></div>
+                    </div>
+
+                    <p class="product-type">MAIN CHARACTER ENERGY</p>
+                    <h3>Midnight Drama</h3>
+                    <p>For bold wings and your extra-glam days.</p>
+                    <p class="price">₹449</p>
+                    <button class="product-button"
+                        onclick="showMessage('Midnight Drama')">
+                        I LIKE THIS!
+                    </button>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-art art-three">
+                        <span>03</span>
+                        <div class="mini-liner"></div>
+                    </div>
+
+                    <p class="product-type">SOFT GIRL FAVOURITE</p>
+                    <h3>Velvet Flick</h3>
+                    <p>A soft, pretty flick for your everyday style.</p>
+                    <p class="price">₹429</p>
+                    <button class="product-button"
+                        onclick="showMessage('Velvet Flick')">
+                        I LIKE THIS!
+                    </button>
+                </article>
+
+            </div>
+
+            <p class="demo-note">
+                ✿ A college mini-project made with HTML, CSS and JavaScript.
+                Product details and prices are for demonstration.
+            </p>
+        </section>
+
+        <!-- Why I made this website -->
+        <section class="story" id="story">
+            <p class="eyebrow">A LITTLE ABOUT MY PROJECT</p>
+
+            <h2>Not just a line.<br>
+                <em>A little confidence.</em>
+            </h2>
+
+            <p>
+                LINÉA Beauty is my mini-project inspired by the
+                little things that make us feel confident.
+                I wanted to create a beauty website that feels
+                simple, fun and easy to explore.
+            </p>
+
+            <p>
+                My idea is simple: makeup has no rules.
+                Try your style, make mistakes and create your own look!
+            </p>
+
+            <a href="signup.html" class="text-link">
+                COME JOIN THE LINÉA FAMILY ↗️
+            </a>
+        </section>
+
+        <!-- Small extra section -->
+        <section class="fun-note">
+            <p class="eyebrow">A QUICK BEAUTY REMINDER</p>
+            <h2>Good eyeliner. Good mood. ✨</h2>
+            <p>
+                Some days it's a tiny flick.
+                Some days it's a dramatic wing.
+                Either way, make it yours!
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <a class="brand" href="index.html">LINÉA<span>®</span></a>
+
+        <p>Created with love for all eyeliner lovers ♡</p>
+        <p>© 2026 LINÉA Beauty | College Mini-Project</p>
+    </footer>
+
+    <script>
+        function showMessage(productName) {
+            alert("Nice choice! You selected " + productName +
+                  ". Thanks for exploring LINÉA Beauty!");
+        }
+    </script>
+
+</body>
+</html>
